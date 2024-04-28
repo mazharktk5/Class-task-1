@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-image: url(./depositphotos_272041202-stock-photo-modern-living-interior-design.jpg); */
+    background-image: url(./photo\ 2.jpg);
+    background-image: url(./download.jpg);
+    /* background-image: url(./pexels-photo-1879061.jpeg); */
+    /* background-image: url(./pexels-photo-1879061.jpeg); */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+header {
+    
+    color: #0b0b0b;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img {
+    max-width: 100px;
+    padding-top: 8px;
+    margin-top: -11px;
+    display: inline-block;
+}
+#lg{
+    padding-top: 2px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+nav ul li a:hover {
+    /* background-color: #555; */
+    text-decoration: underline;
+}
+main {
+    padding: 120px;
+    text-align: center;
+    color: white;
+}
+h1 {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    
+}
+.buttons {
+    margin-top: 20px;
+}
+.buttons button {
+    padding: 5px 25px;
+    margin: 0 10px;
+    border: 2px solid lightskyblue;
+    border-radius: 20px;
+    background-color: #3a3a42;
+    
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.buttons button:hover {
+    background-color:lightskyblue;
+}
